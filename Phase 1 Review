@@ -1,0 +1,68 @@
+# **Report on Phase 1: Literature Review**  
+
+## **Research Topic**  
+**Optimizing Neural Network Structures with Global Optimization Algorithms**  
+
+---
+
+## **Objective**  
+To develop a comprehensive framework for optimizing neural network architectures using global optimization algorithms. This framework will include a user-friendly web application for task management, progress visualization, and result analysis.  
+
+---
+
+## **Findings from Phase 1: Literature Review**  
+
+### **1. Global Optimization Algorithms**  
+Global optimization algorithms efficiently explore complex solution spaces. Key algorithms studied include:  
+- **Genetic Algorithms (GA):**  
+  Simulates natural selection using mutation, crossover, and selection to evolve solutions toward optimal neural network architectures.  
+- **Particle Swarm Optimization (PSO):**  
+  Models particles in a solution space, adjusting their positions based on individual and group experiences to find the optimum.  
+- **Bayesian Optimization (BO):**  
+  Uses a surrogate probabilistic model to guide searches for the best solutions with fewer evaluations, ideal for resource-intensive tasks like neural network training.  
+
+### **2. Neural Architecture Search (NAS)**  
+NAS automates the design of neural network architectures. Key insights include:  
+- Techniques such as Reinforcement Learning, Evolutionary Algorithms, and Random Search are integral to NAS.  
+- Tools like Microsoft NNI provide frameworks for experimenting with NAS, offering flexibility in applying different search strategies.  
+
+### **3. Problem Statement**  
+The primary challenge is integrating global optimization algorithms with NAS into a scalable and resource-efficient framework. This includes creating a web interface for intuitive task configuration, visualization, and analysis.  
+
+### **4. Techniques for Optimization**  
+- **Early Stopping:** Halts computations when further improvements become negligible.  
+- **Tree-Based Search:** Narrows down promising regions in the solution space systematically.  
+- **Resource Efficiency:** Optimizes time and computational resources, especially for large datasets and complex architectures.  
+
+---
+
+## **Key Insights and Observations**  
+- Global optimization techniques are well-suited for exploring vast, non-convex solution spaces, essential for NAS.  
+- Existing NAS platforms lack user-friendly tools for task configuration and result analysis.  
+- Cloud deployment will enhance accessibility and scalability for users.  
+
+---
+
+## **Next Steps: Phase 2 – Framework Design**  
+
+In Phase 2, the focus will be on designing a scalable system architecture that bridges backend optimization processes with a responsive frontend.  
+
+### **Tasks for Phase 2**  
+1. **Backend Architecture Design:**  
+   - Define the structure for implementing optimization algorithms and managing task execution.  
+   - Determine communication protocols (e.g., RESTful APIs or WebSockets) for backend and frontend interaction.  
+2. **Frontend Structure:**  
+   - Design a web interface layout for task configuration, progress visualization, and result management.  
+   - Utilize modern frameworks like React.js or Vue.js for a responsive UI.  
+3. **Integration Plan:**  
+   - Ensure seamless real-time updates and scalable interaction between backend and frontend systems.  
+
+---
+
+## **Conclusion**  
+Phase 1 established a strong theoretical foundation, clarifying the algorithms, techniques, and challenges involved. Moving forward, Phase 2 will focus on translating this understanding into a detailed system design, preparing for backend and frontend development.  
+
+---
+
+**Note:** For further updates and progress, refer to subsequent phase reports.  
+Report submitted by Umar Asghar
