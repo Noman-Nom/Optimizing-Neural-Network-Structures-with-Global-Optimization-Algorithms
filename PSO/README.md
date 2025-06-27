@@ -57,7 +57,7 @@ Due to resource limits on Google Colab, full training is very slow. We are plann
 
 ## 💾 Features Implemented
 
-- PSO-based optimizer from scratch
+- PSO-based optimizer from scratchh
 - Objective function with PyTorch
 - Checkpoint saving (every 500 epochs)
 - Google Drive integration for persistence
